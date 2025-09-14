@@ -1,0 +1,7 @@
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/CMakeFiles/AdvancedScanner.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/CMakeFiles/ALL_BUILD.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/CMakeFiles/ZERO_CHECK.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/libs/FrameHandler/CMakeFiles/FrameHandler.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/libs/Scanner/CMakeFiles/Scanner.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/libs/UI/CMakeFiles/UI.dir
+C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/libs/Archive/CMakeFiles/Archive.dir

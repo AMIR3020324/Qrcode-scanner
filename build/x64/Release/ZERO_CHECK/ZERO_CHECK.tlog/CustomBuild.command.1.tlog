@@ -1,0 +1,10 @@
+^C:\UNIVERSITY\برنامه نویسی پیشرفته\پروژه نهایی\QRCODE-SCANNER\BUILD\CMAKEFILES\EEF8598EE6F715A1CCCEF4493847F861\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner" "-BC:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/University/برنامه نویسی پیشرفته/پروژه نهایی/Qrcode-scanner/build/AdvancedScanner.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

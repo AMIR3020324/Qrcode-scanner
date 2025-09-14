@@ -3,6 +3,8 @@
 #include "ZXing/ImageView.h"
 #include "ZXing/DecodeHints.h"
 #include "ZXing/TextUtfEncoding.h"
+#include <string>
+#include <vector>
 
 std::vector<std::string> Scanner::scan(const cv::Mat &frame) {
     ZXing::ImageView imageView{frame.data, frame.cols, frame.rows, ZXing::ImageFormat::BGR};
@@ -18,7 +20,10 @@ std::vector<std::string> Scanner::scan(const cv::Mat &frame) {
     if (!results.empty()) {
         for (const auto &result : results) {
             if (result.isValid()) {
-                found_data.push_back(ZXing::TextUtfEncoding::ToUtf8(result.text()));
+                std::string text = result.text();
+                std::wstring wtext(text.begin(), text.end());
+
+                found_data.push_back(ZXing::TextUtfEncoding::ToUtf8(wtext));
             }
         }
     }
